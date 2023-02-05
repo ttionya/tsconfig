@@ -29,6 +29,10 @@
     "tsconfig.node-esm.json",
     "tsconfig.web.json"
   ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
   "scripts": {
     "bootstrap": "pnpm install",
     "lint": "prettier tsconfig.* --write",
