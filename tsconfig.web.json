@@ -1,0 +1,18 @@
+{
+  "extends": "./tsconfig.json",
+
+  "compilerOptions": {
+    /* Emit */
+    "preserveValueImports": true,
+
+    /* Interop Constraints */
+    "isolatedModules": true,
+
+    /* Language and Environment */
+    "jsx": "react-jsx",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+
+    /* Interop Constraints */
+    "target": "ESNext"
+  }
+}

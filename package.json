@@ -22,6 +22,13 @@
   "engines": {
     "node": ">=14.18.0"
   },
+  "main": "tsconfig.json",
+  "files": [
+    "tsconfig.json",
+    "tsconfig.node.json",
+    "tsconfig.node-esm.json",
+    "tsconfig.web.json"
+  ],
   "scripts": {
     "bootstrap": "pnpm install",
     "lint": "prettier tsconfig.* --write",

@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.json",
+
+  "compilerOptions": {
+    /* Modules */
+    "module": "ES2022",
+    "resolveJsonModule": false, // ESM doesn't yet support JSON modules
+
+    /* Language and Environment */
+    "lib": ["ES2020"], // NodeJS 14
+
+    /* Interop Constraints */
+    "target": "ES2020"
+  }
+}
