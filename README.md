@@ -1,18 +1,26 @@
 # @ttionya/tsconfig
 
-Shared TypeScript config for my projects.
+> Shared TypeScript config for my projects.
 
 Configure grouping by category, see full configuration options [here](https://www.typescriptlang.org/tsconfig).
 
-## Require
+<br>
 
+## Required
+
+- NodeJS >=14.18.0
 - TypeScript >=4.7.0
-- NodeJS >= 14.18.0
+
+<br>
 
 ## Install
 
 ```bash
-pnpm i -D @ttionya/tsconfig
+# NPM
+npm i -D @ttionya/tsconfig
+
+# PNPM
+pnpm add -D @ttionya/tsconfig
 ```
 
 <br>
@@ -26,7 +34,8 @@ pnpm i -D @ttionya/tsconfig
   "extends": "@ttionya/tsconfig/tsconfig.node.json",
   
   "compilerOptions": {
-    "outDir": "lib"
+    "baseUrl": ".",
+    "outDir": "./lib"
   }
 }
 ```
@@ -35,25 +44,16 @@ pnpm i -D @ttionya/tsconfig
 
 ```json
 {
-  "extends": "@ttionya/tsconfig/tsconfig.node-esm.json",
+  "extends": "@ttionya/tsconfig/tsconfig.esm.json",
   
   "compilerOptions": {
-    "outDir": "esm"
+    "baseUrl": ".",
+    "outDir": "./esm"
   }
 }
 ```
 
-### Web
-
-```json
-{
-  "extends": "@ttionya/tsconfig/tsconfig.node-esm.json",
-  
-  "compilerOptions": {
-    "outDir": "esm"
-  }
-}
-```
+<br>
 
 ## License
 
