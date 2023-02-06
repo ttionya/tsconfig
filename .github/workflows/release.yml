@@ -1,0 +1,45 @@
+name: 'GitHub Release and NPM Publish'
+
+on:
+  push:
+    tags:
+
+jobs:
+  github-release:
+    name: GitHub Release
+
+    runs-on: ubuntu-latest
+
+    # Release if stable tag is pushed
+    if: ${{ !contains(github.ref, '-') }}
+
+    steps:
+      -
+        name: Checkout
+        uses: actions/checkout@v3
+      -
+        name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          body: |
+            [CHANGELOG](https://github.com/ttionya/tsconfig/blob/master/CHANGELOG.md)
+
+  npm-publish:
+    name: NPM Publish
+
+    runs-on: ubuntu-latest
+
+    steps:
+      -
+        name: Checkout
+        uses: actions/checkout@v3
+      -
+        name: Set up NodeJS
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      -
+        name: NPM Publish
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
