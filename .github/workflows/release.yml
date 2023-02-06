@@ -50,6 +50,7 @@ jobs:
           run_install: true
       -
         name: NPM Publish
-        run: pnpm publish
+        # https://github.com/pnpm/pnpm/issues/5894
+        run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
