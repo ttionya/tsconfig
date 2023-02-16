@@ -8,6 +8,8 @@ on:
 
 jobs:
   gitee:
+    name: Sync to Gitee
+
     runs-on: ubuntu-latest
 
     if: ${{ github.actor != 'dependabot[bot]' }}
