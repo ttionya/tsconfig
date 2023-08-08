@@ -44,6 +44,6 @@
     "lint-staged": "^13.2.3"
   },
   "peerDependencies": {
-    "typescript": "^4.7.0"
+    "typescript": "^5.0.0"
   }
 }
