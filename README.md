@@ -9,7 +9,7 @@ Configure grouping by category, see full configuration options [here](https://ww
 ## Required
 
 - NodeJS >=14.18.0
-- TypeScript >=4.7.0
+- TypeScript ^4.7.0
 
 <br>
 
