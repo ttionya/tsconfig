@@ -34,7 +34,6 @@ pnpm add -D @ttionya/tsconfig
   "extends": "@ttionya/tsconfig/tsconfig.node.json",
   
   "compilerOptions": {
-    "baseUrl": ".",
     "outDir": "./lib"
   }
 }
@@ -47,7 +46,6 @@ pnpm add -D @ttionya/tsconfig
   "extends": "@ttionya/tsconfig/tsconfig.esm.json",
   
   "compilerOptions": {
-    "baseUrl": ".",
     "outDir": "./esm"
   }
 }

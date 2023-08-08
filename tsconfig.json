@@ -26,6 +26,8 @@
     /* Interop Constraints */
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
+
+    /* Language and Environment */
     "target": "ESNext",
     "useDefineForClassFields": true,
 
