@@ -15,17 +15,17 @@
 
     /* Modules */
     "module": "ESNext",
-    "moduleResolution": "Node",
+    "moduleResolution": "Bundler",
     "resolveJsonModule": true,
 
     /* Emit */
     "downlevelIteration": true,
-    "importsNotUsedAsValues": "error",
     "newLine": "lf",
 
     /* Interop Constraints */
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
+    "verbatimModuleSyntax": true,
 
     /* Language and Environment */
     "target": "ESNext",

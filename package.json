@@ -25,7 +25,7 @@
   "main": "tsconfig.json",
   "files": [
     "tsconfig.json",
-    "tsconfig.node.json",
+    "tsconfig.commonjs.json",
     "tsconfig.esm.json"
   ],
   "publishConfig": {
