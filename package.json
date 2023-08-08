@@ -20,7 +20,7 @@
     "url": "https://github.com/ttionya/tsconfig/issues"
   },
   "engines": {
-    "node": ">=14.18.0"
+    "node": ">=18.12.0"
   },
   "main": "tsconfig.json",
   "files": [

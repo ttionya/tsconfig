@@ -8,8 +8,10 @@ Configure grouping by category, see full configuration options [here](https://ww
 
 ## Required
 
-- NodeJS >=14.18.0
-- TypeScript ^4.7.0
+- NodeJS >=18.12.0
+- TypeScript ^5.0.0
+
+**IMPORTANT:** The `master` branch only supports Node 18 LTS and TypeScript 5. Switch to the [`v1`](https://github.com/ttionya/tsconfig/tree/v1) branch that supports Node 14 LTS and TypeScript 4.7+.
 
 <br>
 
@@ -31,7 +33,7 @@ pnpm add -D @ttionya/tsconfig
 
 ```json
 {
-  "extends": "@ttionya/tsconfig/tsconfig.node.json",
+  "extends": "@ttionya/tsconfig/tsconfig.commonjs.json",
   
   "compilerOptions": {
     "outDir": "./lib"
