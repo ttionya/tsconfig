@@ -1,5 +1,7 @@
 # @ttionya/tsconfig
 
+[![npm](https://img.shields.io/npm/v/@ttionya/tsconfig?label=NPM&logo=npm)](https://www.npmjs.com/package/@ttionya/tsconfig) [![npm](https://img.shields.io/npm/dm/@ttionya/tsconfig?label=Downloads&logo=npm)](https://www.npmjs.com/package/@ttionya/tsconfig) [![npm](https://img.shields.io/npm/l/@ttionya/tsconfig?label=License&logo=npm)](https://github.com/ttionya/tsconfig/blob/master/LICENSE)
+
 > Shared TypeScript config for my projects.
 
 Configure grouping by category, see full configuration options [here](https://www.typescriptlang.org/tsconfig).
