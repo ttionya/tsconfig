@@ -1,5 +1,16 @@
 # Changelog
 
+## v2.0.0
+
+### Feature
+
+- Require Node 18 TLS or higher and TypeScript 5
+
+### Chore
+
+- The `npm publish` command will employ the appropriate tag
+- Update the CHANGELOG reference
+
 ## v1.2.0
 
 ### Feature
