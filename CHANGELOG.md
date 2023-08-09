@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.2.0
+
+### Feature
+
+- Remove the rules `noUnusedLocals` and `noUnusedParameters`
+
+<br>
+
 ## v1.1.0
 
 ### Feature

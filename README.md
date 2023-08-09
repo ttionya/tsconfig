@@ -8,10 +8,10 @@ Configure grouping by category, see full configuration options [here](https://ww
 
 ## Required
 
-- NodeJS >=14.18.0
-- TypeScript ^4.7.0
+- NodeJS `>=14.18.0`
+- TypeScript `^4.7.0`
 
-**IMPORTANT:** Switch to the [`master`](https://github.com/ttionya/tsconfig) branch that supports Node 18 LTS or higher and TypeScript 5.
+**IMPORTANT:** The configuration in this branch is **outdated**. Switch to the [`master`](https://github.com/ttionya/tsconfig) branch that supports Node 18 LTS or higher and TypeScript 5.
 
 <br>
 
