@@ -11,6 +11,8 @@
 - The `npm publish` command will employ the appropriate tag
 - Update the CHANGELOG reference
 
+<br>
+
 ## v1.2.0
 
 ### Feature
