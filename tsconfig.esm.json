@@ -8,8 +8,6 @@
 
     /* Language and Environment */
     "lib": ["ES2020"], // NodeJS 14
-
-    /* Interop Constraints */
     "target": "ES2020"
   }
 }
