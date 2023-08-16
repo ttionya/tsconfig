@@ -1,5 +1,13 @@
 # Changelog
 
+## v2.0.1
+
+### Feature
+
+- In CommonJS, set the `moduleResolution` to `Node16`
+
+<br>
+
 ## v2.0.0
 
 ### Feature
