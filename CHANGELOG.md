@@ -1,5 +1,18 @@
 # Changelog
 
+## v2.1.0
+
+### Feature
+
+- Add `classic` configuration for CommonJS to resolve the requirement of matching `module` and `moduleResolution` in [TypeScript 5.2](https://devblogs.microsoft.com/typescript/announcing-typescript-5-2/#module-and-moduleresolution-must-match-under-recent-node-js-settings)
+- In CommonJS, set the `module` to `Node16`
+
+### Chore
+
+- Update dependencies
+
+<br>
+
 ## v2.0.1
 
 ### Feature

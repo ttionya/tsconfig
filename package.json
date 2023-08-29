@@ -1,6 +1,6 @@
 {
   "name": "@ttionya/tsconfig",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "Shared TypeScript config for my projects",
   "keywords": [
     "tsconfig",
@@ -25,6 +25,7 @@
   "main": "tsconfig.json",
   "files": [
     "tsconfig.json",
+    "tsconfig.classic.json",
     "tsconfig.commonjs.json",
     "tsconfig.esm.json"
   ],
