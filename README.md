@@ -31,7 +31,23 @@ pnpm add -D @ttionya/tsconfig
 
 ## Usage
 
+### Node (ESM)
+
+Enabling ECMAScript Modules (ESM) by setting `"type": "module"` in `package.json`.
+
+```json
+{
+  "extends": "@ttionya/tsconfig/tsconfig.esm.json",
+  
+  "compilerOptions": {
+    "outDir": "./esm"
+  }
+}
+```
+
 ### Node (CommonJS)
+
+Using CommonJS and automatically detecting the appropriate algorithm to resolve modules. Supporting the `exports` field in the `package.json` file.
 
 ```json
 {
@@ -43,14 +59,16 @@ pnpm add -D @ttionya/tsconfig
 }
 ```
 
-### Node (ESM)
+### Node (Classic CommonJS)
+
+Using CommonJS but not supporting the `exports` field in the `package.json` file.
 
 ```json
 {
-  "extends": "@ttionya/tsconfig/tsconfig.esm.json",
+  "extends": "@ttionya/tsconfig/tsconfig.classic.json",
   
   "compilerOptions": {
-    "outDir": "./esm"
+    "outDir": "./lib"
   }
 }
 ```
