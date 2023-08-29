@@ -1,16 +1,9 @@
 {
-  "extends": "./tsconfig.json",
+  "extends": "./tsconfig.classic.json",
 
   "compilerOptions": {
     /* Modules */
-    "module": "CommonJS",
-    "moduleResolution": "Node16",
-
-    /* Interop Constraints */
-    "verbatimModuleSyntax": false,
-
-    /* Language and Environment */
-    "lib": ["ES2022"], // NodeJS 18
-    "target": "ES2022"
+    "module": "Node16",
+    "moduleResolution": "Node16"
   }
 }
