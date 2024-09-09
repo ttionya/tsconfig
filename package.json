@@ -37,12 +37,12 @@
     "bootstrap": "pnpm install",
     "lint": "prettier tsconfig.* --write",
     "preinstall": "npx only-allow pnpm",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "devDependencies": {
-    "@ttionya/prettier-config": "^1.2.0",
-    "husky": "^8.0.3",
-    "lint-staged": "^14.0.1"
+    "@ttionya/prettier-config": "^2.0.0",
+    "husky": "^9.1.5",
+    "lint-staged": "^15.2.10"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
