@@ -22,11 +22,14 @@ jobs:
         name: Checkout
         uses: actions/checkout@v4
       -
+        name: Prepare
+        run: echo "VERSION_ANCHOR=${GITHUB_REF_NAME//./}" >> $GITHUB_ENV
+      -
         name: Release
         uses: softprops/action-gh-release@v2
         with:
           body: |
-            [CHANGELOG](https://github.com/ttionya/tsconfig/blob/${{ github.ref_name }}/CHANGELOG.md)
+            [CHANGELOG](https://github.com/ttionya/tsconfig/blob/master/CHANGELOG.md#${{ env.VERSION_ANCHOR }})
 
   npm-publish:
     name: NPM Publish
@@ -41,7 +44,7 @@ jobs:
         name: Set up NodeJS
         uses: actions/setup-node@v4
         with:
-          node-version: 16
+          node-version: 20
           registry-url: https://registry.npmjs.org/
       -
         name: Install PNPM
