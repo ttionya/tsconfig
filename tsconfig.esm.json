@@ -3,12 +3,12 @@
 
   "compilerOptions": {
     /* Modules */
-    "module": "Node16",
-    "moduleResolution": "Node16",
+    "module": "node16",
+    "moduleResolution": "node16",
     "resolveJsonModule": false, // ESM doesn't yet support JSON modules
 
     /* Language and Environment */
-    "lib": ["ES2022"], // NodeJS 18
-    "target": "ES2022"
+    "lib": ["es2023"],
+    "target": "es2022"
   }
 }

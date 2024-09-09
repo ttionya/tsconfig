@@ -3,7 +3,7 @@
 
   "compilerOptions": {
     /* Modules */
-    "module": "Node16",
-    "moduleResolution": "Node16"
+    "module": "node16",
+    "moduleResolution": "node16"
   }
 }
