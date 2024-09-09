@@ -1,5 +1,20 @@
 # Changelog
 
+## v2.2.0
+
+### Feature
+
+- Remove the option `forceConsistentCasingInFileNames`
+- Upgrade `lib` from `es2022` to `es2023`
+
+### Chore
+
+- Update dependencies
+- Update the CHANGELOG reference
+- Upgrade Node.js version in GitHub Actions from 16 to 20
+
+<br>
+
 ## v2.1.0
 
 ### Feature
