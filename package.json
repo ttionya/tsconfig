@@ -40,9 +40,9 @@
     "prepare": "husky"
   },
   "devDependencies": {
-    "@ttionya/prettier-config": "^2.0.0",
-    "husky": "^9.1.5",
-    "lint-staged": "^15.2.10"
+    "@ttionya/prettier-config": "^2.0.1",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.4.3"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
