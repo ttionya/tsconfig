@@ -1,5 +1,18 @@
 # Changelog
 
+## v3.0.0
+
+### Feature
+
+- Require Node 20 TLS or higher and TypeScript 5
+
+### Chore
+
+- Update dependencies
+- Upgrade Node.js version in GitHub Actions from 20 to 22
+
+<br>
+
 ## v2.2.0
 
 ### Feature
