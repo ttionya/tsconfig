@@ -44,7 +44,7 @@ jobs:
         name: Set up NodeJS
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           registry-url: https://registry.npmjs.org/
       -
         name: Install PNPM
@@ -63,7 +63,7 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
       -
         name: Tagging latest
-        if: ${{ !contains(github.ref, '-') && startsWith(github.ref_name, 'v2.') }}
+        if: ${{ !contains(github.ref, '-') && startsWith(github.ref_name, 'v3.') }}
         run: |
           npm dist-tag add @ttionya/tsconfig@${GITHUB_REF_NAME#v} latest
         env:
