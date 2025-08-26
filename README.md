@@ -10,10 +10,10 @@ Configure grouping by category, see full configuration options [here](https://ww
 
 ## Required
 
-- NodeJS `>=20.9.0`
-- TypeScript `^5.0.0`
+- NodeJS `>=20.19.0`
+- TypeScript `^5.9.0`
 
-**IMPORTANT:** This branch supports Node 20 LTS or higher and TypeScript 5. For Node 18 LTS and TypeScript 5, switch to the [`v2`](https://github.com/ttionya/tsconfig/tree/v2) branch; for Node 14 LTS and TypeScript 4.7, choose the [`v1`](https://github.com/ttionya/tsconfig/tree/v1) branch.
+**IMPORTANT:** This branch supports Node 20 LTS or higher and TypeScript 5.9. For Node 18 LTS and TypeScript 5, switch to the [`v2`](https://github.com/ttionya/tsconfig/tree/v2) branch; for Node 14 LTS and TypeScript 4.7, choose the [`v1`](https://github.com/ttionya/tsconfig/tree/v1) branch.
 
 <br>
 

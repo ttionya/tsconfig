@@ -1,5 +1,22 @@
 # Changelog
 
+## v3.1.0
+
+### Feature
+
+- Require Node.js `>=20.19.0` and TypeScript `^5.9.0`
+- Set `module` from `node16` to `node20`
+- Set `target` from `es2022` to `es2023`
+- In ESM, removed the option `resolveJsonModule`
+
+### Chore
+
+- Update dependencies
+- Bumped `actions/checkout` from 4 to 5 in GitHub Actions
+- Replaced `npx` with `pnpm exec` in Husky hooks
+
+<br>
+
 ## v3.0.0
 
 ### Feature
