@@ -20,7 +20,7 @@
     "url": "https://github.com/ttionya/tsconfig/issues"
   },
   "engines": {
-    "node": ">=20.9.0"
+    "node": ">=20.19.0"
   },
   "main": "tsconfig.json",
   "files": [
@@ -40,11 +40,12 @@
     "prepare": "husky"
   },
   "devDependencies": {
-    "@ttionya/prettier-config": "^2.0.1",
+    "@ttionya/prettier-config": "^2.1.0",
     "husky": "^9.1.7",
-    "lint-staged": "^15.4.3"
+    "lint-staged": "^16.1.5",
+    "prettier": "^3.6.2"
   },
   "peerDependencies": {
-    "typescript": "^5.0.0"
+    "typescript": "^5.9.0"
   }
 }
