@@ -11,6 +11,6 @@
 
     /* Language and Environment */
     "lib": ["es2023"],
-    "target": "es2022"
+    "target": "es2023"
   }
 }
