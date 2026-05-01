@@ -26,7 +26,7 @@ jobs:
         run: echo "VERSION_ANCHOR=${GITHUB_REF_NAME//./}" >> $GITHUB_ENV
       -
         name: Release
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           body: |
             [CHANGELOG](https://github.com/ttionya/tsconfig/blob/master/CHANGELOG.md#${{ env.VERSION_ANCHOR }})
